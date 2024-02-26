@@ -1,17 +1,37 @@
+ .nav{
+  background-color: #EAF6F6;
+  margin-bottom: 40px;
+  padding-top: 20px;
+
+}
+
+a{
+      color: #11999E;
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 10px 20px 10px 20px; 
+      padding: auto; 
+      text-decoration: none;
+}
+
 .top-container{
     background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
+    text-align: center;
   }
   
   .middle-container{
     background-color: #EAF6F6;
     padding-bottom : 20px ;
+    text-align: center;
   }
   
   .bottom-container{
-    background-color: #66BFBF;
+    background-color: #EAF6F6;
     padding: 50px 0 20px 0;
+    margin: 0;
+    text-align: center;
   }
   
   h1{
@@ -33,17 +53,17 @@
   
   }
   
-  h3{
+  h4{
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #044a4d;
   
   }
   
   body{
     margin: 0;
-    text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
+ 
   }
   p{
       line-height: 2;
@@ -59,22 +79,17 @@
     margin: 100px auto 100px auto;
   }
   
-  a{
-    color: #11999E;
-      font-family: 'Montserrat', sans-serif;
-      margin: 10px 20px 10px 20px;
-      text-decoration: none;
-  }
+ 
   
   a:hover{
-    color: #EAF6F6;
+    color: #006262;
   }
   
   
   .top-cloud{
     position: absolute;
     right: 300px;
-    top: 40px;
+    top: 10px;
   }
   
   .bottom-cloud{
@@ -84,25 +99,38 @@
   }
   
   .photos1{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+    width: 5%;
+    margin-left: 30px;
   }
   
   .photos2{
-    width: 25%;
-    float: right;
+    width: 5%;
     margin-left: 30px;
   }
   
   .photos3{
+    width: 5%;
+    margin-left: 30px;
+  }
+
+  .photos4{
     width: 25%;
-    float: left;
     margin-right: 30px;
+    
   }
   
+  .photos5{
+    width: 25%;
+    margin-right : 30px;
+  }
+
+  .photos6{
+    width: 25%;
+  }
+
   .My-dp{
     width: 25%;
+    
   }
   
   .footer-link{
@@ -114,10 +142,21 @@
     color: #11999E;
   }
   
+  .skills{
+    background-color: #EAF6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   
@@ -126,14 +165,21 @@
   }
   
   .bio{
+    height: 100vh;
     width: 30%;
-    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 34%;
+    
     
   }
   
   .contact-me{
-    width: 40%;
-    margin: 40px auto 60px auto;
+    background-color: #EAF6F6;
+    width: 100%;
+    height : 70vh;
+    text-align: center;
+    
   }
   
   .btn {
@@ -164,7 +210,7 @@
   }
   
   .copyright{
-    color: #EAF6F6;
+    color: #006e6e;
     font-size: 0.75rem;
     padding: 20px 0 20px 0;
   }
@@ -172,4 +218,51 @@
   .contact-message{
     padding-bottom: 40px;
   }
-  
+
+  .connect{
+    background-color: #EAF6F6;
+  }
+
+  .ns{
+    background-color: #EAF6F6;
+  }
+
+  .act{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .acti{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif
+  } 
+
+  #bg{
+    background-color: #EAF6F6;
+  }
+
+  .about{
+    background-color: #EAF6F6;
+  }
+
+  .skill{
+    background-color: #EAF6F6;
+  }
+
+  span{
+    margin:20px 60px 20px 80px;
+  }
+
+  .ski{
+    position: absolute;
+    top: 10px;
+    padding-top: 50px;
+  }
+
