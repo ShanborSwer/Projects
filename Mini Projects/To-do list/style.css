@@ -13,12 +13,13 @@ body {
     width: 400px;
     height: 80vh;
     padding: 20px;
-    background-color: #fff;
+    background-color: #4cc6ee;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(81, 73, 73, 0.1);
 }
 
 h2 {
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 0;
     text-align: center;
 }
