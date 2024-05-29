@@ -1,0 +1,61 @@
+
+  body {
+    background-color: #EAF6F6;
+  }
+
+  nav{ 
+      background-color: #EAF6F6;
+      margin-bottom: 40px;
+      padding-top: 20px;
+      margin-left: 500px;
+      padding: 10px;
+
+  }
+
+  a{
+    color: #11999E;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 20px 10px 20px; 
+    padding: auto; 
+    text-decoration: none;
+}
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 4%;
+  }
+
+  .dealer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+
+  button{
+    border-radius: 50px;
+    background-color: rgb(206, 246, 246);
+    border-color: #66BFBF;
+  }
+h1{
+  font-style: normal;
+  color: #66BFBF;
+}
+
+h3{
+  font-style: normal;
+  color: #66BFBF;
+}
+
+img{
+border-radius: 50px;
+width: 500px;
+}
+
+.Peeps{
+  color: lightblue;
+}
