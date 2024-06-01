@@ -9,7 +9,7 @@ import RemoveFromList from './Components/RemoveFromList'
 
 function App  ()  {
 
-  const[search,setSearch] = useState('One Piece')
+  const[search,setSearch] = useState('Naruto')
   const[animeData,setAnimeData] = useState()
   const[animeInfo,setAnimeInfo] = useState();
   const[MyAnimeList, setMyAnimeList] = useState([]);
